@@ -93,12 +93,12 @@
 					<applicationName>helloworld-ky-maven</applicationName>
 					<deploymentType>cloudhub</deploymentType>
 					<muleVersion>3.8.0</muleVersion>
-					<username>apac-sc</username>
-					<password>Anypoint1357</password>
+					<username>${username}</username>
+					<password>${password}</password>
 					<redeploy>true</redeploy>
-					<environment>Sandbox</environment>
-					<businessGroup>Summit-Demo</businessGroup>
-					<workerType>Micro</workerType>
+					<environment>${env}</environment>
+					<businessGroup>${group}</businessGroup>
+					<workerType>${size}</workerType>
 				</configuration>
 				<executions>
 					<execution>
