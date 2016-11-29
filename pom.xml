@@ -13,7 +13,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
-		<mule.version>3.8.2</mule.version>
+		<mule.version>3.8.0</mule.version>
 		<mule.tools.version>1.2</mule.tools.version>
 		<munit.version>1.2.1</munit.version>
 		<mule.munit.support.version>3.8.0</mule.munit.support.version>
@@ -92,7 +92,7 @@
 				<configuration>
 					<applicationName>helloworld-ky-maven</applicationName>
 					<deploymentType>cloudhub</deploymentType>
-					<muleVersion>3.8.2</muleVersion>
+					<muleVersion>3.8.0</muleVersion>
 					<username>apac-sc</username>
 					<password>Anypoint1357</password>
 					<redeploy>true</redeploy>
