@@ -90,7 +90,7 @@
 				<artifactId>mule-maven-plugin</artifactId>
 				<version>2.1.1</version>
 				<configuration>
-					<applicationName>helloworld-ky-maven</applicationName>
+					<applicationName>helloworld-${appname}-maven</applicationName>
 					<deploymentType>cloudhub</deploymentType>
 					<muleVersion>3.8.0</muleVersion>
 					<username>${username}</username>
